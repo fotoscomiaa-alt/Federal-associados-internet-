@@ -1,0 +1,10 @@
+[
+  {"id":"vivo-60gb","operator":"Vivo","name":"Vivo 60GB","data":"60GB","call":"Com ligação","hasCall":true,"price":"69.90"},
+  {"id":"vivo-100gb","operator":"Vivo","name":"Vivo 100GB","data":"100GB","call":"Com ligação","hasCall":true,"price":"99.90"},
+  {"id":"vivo-300gb","operator":"Vivo","name":"Vivo 300GB","data":"300GB","call":"Sem ligação","hasCall":false,"price":"189.90"},
+  {"id":"vivo-500gb","operator":"Vivo","name":"Vivo 500GB","data":"500GB","call":"Sem ligação","hasCall":false,"price":"299.90"},
+  {"id":"claro-80gb","operator":"Claro","name":"Claro 80GB","data":"80GB","call":"Com ligação","hasCall":true,"price":"69.90"},
+  {"id":"claro-160gb","operator":"Claro","name":"Claro 160GB","data":"160GB","call":"Com ligação","hasCall":true,"price":"99.90"},
+  {"id":"tim-100gb","operator":"Tim","name":"Tim 100GB","data":"100GB","call":"Com ligação","hasCall":true,"price":"69.90"},
+  {"id":"tim-500gb","operator":"Tim","name":"Tim 500GB","data":"500GB","call":"Sem ligação","hasCall":false,"price":"189.90"}
+]
