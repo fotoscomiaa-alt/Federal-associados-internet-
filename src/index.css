@@ -8,3 +8,10 @@
 
 .benefitIntro{grid-column:1;grid-row:1}.benefitVisual{grid-column:2;grid-row:1 / span 2;min-height:320px;border-radius:26px;overflow:hidden;border:1px solid rgba(255,255,255,.16);box-shadow:0 24px 50px rgba(0,0,0,.22)}.benefitVisual img{width:100%;height:100%;min-height:320px;display:block;object-fit:cover;object-position:center}.benefitsLayout>.benefitGrid{grid-column:1;grid-row:2}.benefitVisual+ .benefitGrid{margin-top:0}
 @media(max-width:900px){.benefitIntro,.benefitVisual,.benefitsLayout>.benefitGrid{grid-column:auto;grid-row:auto}.benefitVisual{min-height:260px}.benefitVisual img{min-height:260px}}
+
+/* Ajustes pontuais de responsividade: sem mockup textual e sem overflow horizontal. */
+html,body,#root{max-width:100%;overflow-x:hidden}
+img{max-width:100%;height:auto}
+.heroVisual{pointer-events:none}
+@media(max-width:900px){.heroGrid{gap:24px}.heroVisual{min-height:220px}.section{padding:68px 0}.contentPage{padding:68px 0}.footer{padding-top:52px}}
+@media(max-width:560px){.heroGrid{min-height:0}.heroVisual{display:none}.hero h1{max-width:100%;word-break:normal}.heroFeatureRow{align-items:flex-start}.heroFeatureRow span{max-width:31%}.sectionHead{margin-bottom:30px}.planCard{padding:22px}.pageHero{padding:56px 0}.contentPage p{font-size:16px}.footerGrid{gap:24px}.copyright{line-height:1.5}}
