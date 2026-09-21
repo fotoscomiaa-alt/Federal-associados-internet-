@@ -15,3 +15,9 @@ img{max-width:100%;height:auto}
 .heroVisual{pointer-events:none}
 @media(max-width:900px){.heroGrid{gap:24px}.heroVisual{min-height:220px}.section{padding:68px 0}.contentPage{padding:68px 0}.footer{padding-top:52px}}
 @media(max-width:560px){.heroGrid{min-height:0}.heroVisual{display:none}.hero h1{max-width:100%;word-break:normal}.heroFeatureRow{align-items:flex-start}.heroFeatureRow span{max-width:31%}.sectionHead{margin-bottom:30px}.planCard{padding:22px}.pageHero{padding:56px 0}.contentPage p{font-size:16px}.footerGrid{gap:24px}.copyright{line-height:1.5}}
+
+/* Hero sem mockup: a coluna visual foi removida e o conteúdo ocupa o espaço disponível. */
+.heroGrid{display:block;min-height:0}
+.heroCopy{max-width:700px}
+@media(max-width:900px){.heroCopy{max-width:100%}.hero{padding-bottom:64px}}
+@media(max-width:560px){.hero{padding-bottom:48px}.heroFeatureRow{justify-content:flex-start}.heroFeatureRow span{max-width:none}}

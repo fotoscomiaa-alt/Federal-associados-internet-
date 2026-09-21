@@ -18,10 +18,6 @@ export default function Hero() {
           <div className="actions"><Link className="btn primary" to="/planos">Conheça nossos planos <span>→</span></Link><a className="btn ghost" href="https://wa.me/5511972506989" target="_blank" rel="noreferrer">Falar no WhatsApp</a></div>
           <div className="stats"><span><b>8</b> planos</span><span><b>100%</b> atendimento</span><span><b>+</b> benefícios</span></div>
         </div>
-        <div className="heroVisual" aria-hidden="true">
-          <div className="orb"></div>
-          <div className="arc arcOne"></div><div className="arc arcTwo"></div>
-        </div>
       </div>
     </section>
   );
